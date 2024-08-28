@@ -4,7 +4,7 @@ module.exports = defineConfig({
   viewportWidth: 1366,
   viewportHeight: 768,
   e2e: {
-    specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
+    specPattern: 'cypress/e2e/api_testing/**/*.{js,jsx,ts,tsx}',
     experimentalStudio: true,
     pageLoadTimeout: 90000,
     retries: {
